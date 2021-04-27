@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function SearchBar({updateState}) {
+export default function SearchBar({toto}) {
   return (
     <div>
       <h1>Search</h1>
-      <form onChange={updateState}>
+      <form onChange={toto}>
         <input type="text" name="search" />
         <p>
           <input type="checkbox" />
